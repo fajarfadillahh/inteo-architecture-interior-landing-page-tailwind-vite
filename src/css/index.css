@@ -64,3 +64,17 @@
 .awards__content-text {
   @apply w-[130px] mx-auto text-white text-opacity-70;
 }
+
+/* ===== METRICS SECTION ===== */
+.metrics__group {
+  @apply grid justify-center gap-8;
+}
+.metrics__content {
+  @apply inline-flex items-center gap-4;
+}
+.metrics__content-number {
+  @apply text-[48px] text-black font-title font-semibold;
+}
+.metrics__content-text {
+  @apply text-grey uppercase;
+}
