@@ -21,6 +21,52 @@
     />
   </head>
   <body class="font-body font-reguler">
+    <!-- ===== HEADER SECTION ===== -->
+    <header
+      class="header fixed w-full top-0 left-0 bg-white z-50 transition-all duration-400"
+      id="header"
+    >
+      <div
+        class="header__container container h-24 flex justify-between items-center"
+      >
+        <a href="#" class="header__logo w-20">
+          <img src="./src/img/logo.svg" alt="" class="header__logo-icon" />
+        </a>
+
+        <div class="header__menu" id="header-menu">
+          <ul class="header__list flex flex-col gap-6">
+            <li class="header__item">
+              <a href="#" class="header__link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">About</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Services</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Portfolio</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Our Blog</a>
+            </li>
+          </ul>
+
+          <a href="#" class="header__button button bg-white text-brown mt-6"
+            >Contact Us</a
+          >
+        </div>
+
+        <div
+          class="header__toggle inline-flex text-[1.5rem] text-black cursor-pointer"
+          id="header-toggle"
+        >
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ===== HEADER SECTION ===== -->
+
     <!-- ===== MAIN JS ===== -->
     <script type="module" src="./src/js/main.js"></script>
   </body>
