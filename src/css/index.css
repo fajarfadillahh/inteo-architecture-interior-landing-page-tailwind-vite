@@ -53,3 +53,14 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== AWARDS SECTION ===== */
+.awards__content {
+  @apply inline-flex flex-col justify-center items-center text-center gap-2;
+}
+.awards__content-icon {
+  @apply w-[75px];
+}
+.awards__content-text {
+  @apply w-[130px] mx-auto text-white text-opacity-70;
+}
