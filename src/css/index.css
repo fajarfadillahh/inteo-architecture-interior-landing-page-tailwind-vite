@@ -115,3 +115,20 @@
 .work__content-text {
   @apply text-grey leading-text;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__wrapper-title {
+  @apply section-title text-[28px] mb-2;
+}
+.footer__wrapper-text {
+  @apply text-grey leading-text;
+}
+.footer__wrapper-contact {
+  @apply text-[28px] text-brown font-title font-semibold mt-2;
+}
+.footer__copy-sosmed {
+  @apply inline-flex items-center gap-4;
+}
+.footer__copy-icon {
+  @apply inline-flex justify-center items-center w-11 h-11 p-2 border-[1.5px] border-solid border-[rgba(44,44,44,0.3)] rounded-[50%] text-[1.5rem] text-brown transition-all duration-400 hover:bg-brown hover:text-white hover:border-brown;
+}
