@@ -95,3 +95,23 @@
 .services__content-text {
   @apply text-grey leading-text;
 }
+
+/* ===== WORK SECTION ===== */
+.work__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] justify-center gap-12;
+}
+.work__content {
+  @apply grid gap-8;
+}
+.work__content-overlay {
+  @apply relative overflow-hidden;
+}
+.work__content-img {
+  @apply w-full h-full object-cover object-center;
+}
+.work__content-title {
+  @apply section-title text-[32px];
+}
+.work__content-text {
+  @apply text-grey leading-text;
+}
