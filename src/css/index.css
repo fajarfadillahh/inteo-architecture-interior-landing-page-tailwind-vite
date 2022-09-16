@@ -188,3 +188,13 @@
     @apply w-[600px];
   }
 }
+
+/* width 968px */
+@screen lg {
+  .header__container {
+    @apply relative;
+  }
+  .header__list {
+    @apply absolute left-[50%] -translate-x-[50%] gap-8;
+  }
+}
