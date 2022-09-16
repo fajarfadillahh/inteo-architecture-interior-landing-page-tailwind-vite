@@ -90,7 +90,7 @@
   @apply w-[65px];
 }
 .services__content-title {
-  @apply section-title text-[32px];
+  @apply text-[32px] text-black font-title font-semibold mb-4 leading-title;
 }
 .services__content-text {
   @apply text-grey leading-text;
@@ -110,7 +110,7 @@
   @apply w-full h-full object-cover object-center;
 }
 .work__content-title {
-  @apply section-title text-[32px];
+  @apply text-[32px] text-black font-title font-semibold mb-4 leading-title;
 }
 .work__content-text {
   @apply text-grey leading-text;
@@ -118,7 +118,7 @@
 
 /* ===== FOOTER SECTION ===== */
 .footer__wrapper-title {
-  @apply section-title text-[28px] mb-2;
+  @apply text-[32px] text-black font-title font-semibold mb-4 leading-title;
 }
 .footer__wrapper-text {
   @apply text-grey leading-text;
