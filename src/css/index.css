@@ -142,6 +142,11 @@
   @apply bottom-12;
 }
 
+/* ===== ::SELECTION ===== */
+::selection {
+  @apply bg-brown text-white;
+}
+
 /* ===== MEDIA QUERIES ===== */
 /* width 480px */
 @screen xs {
