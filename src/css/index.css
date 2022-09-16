@@ -155,3 +155,36 @@
     @apply grid-cols-[repeat(2,max-content)];
   }
 }
+
+/* width 767px */
+@screen md {
+  .header__menu {
+    @apply flex items-center gap-6;
+  }
+  .header__list {
+    @apply flex-row;
+  }
+  .header__link {
+    @apply text-black;
+  }
+  .header__button {
+    @apply mt-0 bg-brown text-white;
+  }
+  .header__toggle {
+    @apply hidden;
+  }
+
+  .section-title {
+    @apply text-[64px];
+  }
+
+  .home__container {
+    @apply w-[600px] mx-auto;
+  }
+  .about__data,
+  .services__data,
+  .work__data,
+  .footer__data {
+    @apply w-[600px];
+  }
+}
