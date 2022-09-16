@@ -132,3 +132,12 @@
 .footer__copy-icon {
   @apply inline-flex justify-center items-center w-11 h-11 p-2 border-[1.5px] border-solid border-[rgba(44,44,44,0.3)] rounded-[50%] text-[1.5rem] text-brown transition-all duration-400 hover:bg-brown hover:text-white hover:border-brown;
 }
+
+/* ===== MEDIA QUERIES ===== */
+/* width 480px */
+@screen xs {
+  .section-title,
+  .metrics__content-number {
+    @apply text-[52px];
+  }
+}
