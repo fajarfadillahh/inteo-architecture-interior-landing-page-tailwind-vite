@@ -141,3 +141,17 @@
     @apply text-[52px];
   }
 }
+
+/* width 640px */
+@screen sm {
+  .awards__content {
+    @apply flex-row gap-4;
+  }
+  .awards__content-text {
+    @apply m-0 text-left;
+  }
+
+  .metrics__group {
+    @apply grid-cols-[repeat(2,max-content)];
+  }
+}
