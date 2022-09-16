@@ -78,3 +78,20 @@
 .metrics__content-text {
   @apply text-grey uppercase;
 }
+
+/* ===== SERVICES SECTION ===== */
+.services__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] justify-center gap-12;
+}
+.services__content {
+  @apply grid gap-8 py-12 px-8 border-[1.5px] border-solid border-[rgba(153,104,48,0.3)];
+}
+.services__content-icon {
+  @apply w-[65px];
+}
+.services__content-title {
+  @apply section-title text-[32px];
+}
+.services__content-text {
+  @apply text-grey leading-text;
+}
